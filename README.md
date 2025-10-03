@@ -3,7 +3,7 @@ This project analyzes **customer churn** to understand **what customers leave** 
 
 ---
 
-## Methods & Techniques Used
+## Concepts & Techniques Used
 
 ### Data Loading
 - Loaded CSV with `pandas.read_csv()` from the original Colab/Drive path:  
