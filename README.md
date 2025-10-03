@@ -1,5 +1,13 @@
 # Customer-Churn-Prediction-Analytics-Python-Project
+
+## Project Overview
 This project analyzes **customer churn** to understand **what customers leave** and **why**, then builds an explainable decuision model to **predict churn risk** and support retention decisions. The workflow mirrors a real analytics engagement: business framing → **exploratory data analysis (EDA)** → **Decision Tree** modeling (gini/entropy with depth tuning), classification models → model evaluation (classification report & confusion matrices) → **stakeholder-ready recommendations** and KPIs.
+
+### Key Results
+- **Goal:** Identified churn drivers and predict **at-risk customers**.
+- **Built:** End-to-end Python workflow with **EDA**, **Decision Tree (ML)**, and evaluation (**accuracy/precision/recall/F1 + confusion matrices**).
+- **How:** Cleaned `CutomerChurnData.csv`, one-hot encoded categoricals, aligned train/test features, tuned **max_depth** (gini/entropy).
+- **Insights:** [e.g., **short tenure**, **Plan X**, missing **add-on Y** → higher churn; Segment **A** ≈ **2×** baseline].
 
 ---
 
