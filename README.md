@@ -1,17 +1,12 @@
 # Customer-Churn-Prediction-Analytics-Python-Project
-This project analyzes **customer churn** to understand **who leaves** and **why**, then builds an explainable model to **predict churn risk** and support retention decisions. The workflow mirrors a real analytics engagement: business framing → **exploratory data analysis (EDA)** → **Decision Tree** modeling (gini/entropy with depth tuning) → model evaluation (classification report & confusion matrices) → **stakeholder-ready recommendations** and KPIs.
+This project analyzes **customer churn** to understand **what customers leave** and **why**, then builds an explainable decuision model to **predict churn risk** and support retention decisions. The workflow mirrors a real analytics engagement: business framing → **exploratory data analysis (EDA)** → **Decision Tree** modeling (gini/entropy with depth tuning), classification models → model evaluation (classification report & confusion matrices) → **stakeholder-ready recommendations** and KPIs.
 
 ---
 
 # Methods & Techniques Used
 
 ## Data Loading
-- Loaded the dataset with `pandas.read_csv()`:
-  ```python
-  import pandas as pd
-  df = pd.read_csv('/content/drive/MyDrive/IS470 Colab Datasets/CutomerChurnData.csv')
-  ```
-  _Repo note:_ place the CSV under `data/` and update the path (e.g., `data/CutomerChurnData.csv`).
+- Loaded the dataset using pandas.read_cvsv().
 
 ## Data Cleaning
 - **Missing values scan:** `df.isnull().sum()` to identify fields requiring attention.
