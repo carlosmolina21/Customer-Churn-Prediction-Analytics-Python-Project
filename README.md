@@ -34,9 +34,8 @@ This project analyzes **customer churn** to understand **what customers leave** 
 - `classification_report` with **Accuracy, Precision, Recall, F1** (emphasis on the churn class).
 - Confusion matrices to quantify costs of missed churners (FN) vs over-flagging (FP).
 
---
 
-## CRISP-DM (What I Did at Each Stage)
+# CRISP-DM (What I Did at Each Stage)
 
 ### 1) Business Understanding
 - **Objective:** Identify customers most likely to churn and the drivers behind attrition so teams can target interventions.
