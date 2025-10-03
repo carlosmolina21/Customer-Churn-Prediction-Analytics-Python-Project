@@ -6,7 +6,7 @@ This project analyzes **customer churn** to understand **what customers leave** 
 ### Key Results
 - **Goal:** Identified churn drivers and predict **at-risk customers**.
 - **Built:** End-to-end Python workflow with **EDA**, **Decision Tree (ML)**, and evaluation (**accuracy/precision/recall/F1 + confusion matrices**).
- **How:** Cleaned `CutomerChurnData.csv`, one-hot encoded categoricals, aligned train/test features, and trained **four Decision Tree models** by varying **criterion (gini vs. entropy)** and **max_depth (shallow vs. deeper)** to compare performance.
+- **How:** Cleaned `CutomerChurnData.csv`, one-hot encoded categoricals, aligned train/test features, and trained **four Decision Tree models** by varying **criterion (gini vs. entropy)** and **max_depth (shallow vs. deeper)** to compare performance.
 
 ---
 
